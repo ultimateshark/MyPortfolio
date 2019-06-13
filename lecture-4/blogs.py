@@ -1,6 +1,5 @@
 
-blogs={
-	1:{
+blogs=[{
 	"heading":"UDP stand for User Datagram Protocol .","img":"project1.jpg",
 	"content":'''
 		UDP stand for User Datagram Protocol .
@@ -37,8 +36,7 @@ In this we can see that we get two values back and they are DATA and the ADDRESS
 
 Note-We have made many assumptions here.These assumptions have been made to simplify our work. We can use Exception handling of sockets to avoid these.
 	'''
-	},
-	2:{
+	},{
 	"heading":"React Native State and Props","img":"blog2.png",
 	"content":"""React Native is a framework to develop ANDROID and IOS APP . It is based on Reactjs developed by facebook and is an open-source project. One of the most important concept of react native are states and props.
 
@@ -90,4 +88,4 @@ We have passed name as parameter which is then used in line
 
 To get the name from props. props is only a simple variable that stores all other parameters passed on itself. """
 	}
-}
+]
