@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/simple-grid.css">
+
+	<link rel="stylesheet" type="text/css" href="/static/css/simple-grid.min.css">
+	<style type="text/css">
+		h1{
+			color:cyan;
+		}
+		h3{
+			color:cyan;
+		}
+
+		.project_display{
+			height: 100%;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body style="background-color: currentColor;">
+	<div class="row" style="height: 80px;background-color: currentColor;">
+		<a href=""><h1 class="col-4">Manish Pandey</h1></a>
+		<h3 class="col-2">Home</h3>
+		<a href="/blog-entry-page"><h3 class="col-2">Blog</h3></a>
+		<h3 class="col-2">Contact</h3>
+		<h3 class="col-2">Projects</h3>
+	</div>
+	<div class="row" style="width: 100%">
+		<img src="/static/images/home.jpg" style="width: 100%;height: 600px;">
+		<h2 align="center" style="margin-top: -300px;margin-bottom: 300px;color: floralwhite;">Web Development,Game Development</h2>
+	</div>
+	
+
+	<h2 align="center" class="row" style="color: cyan;" id="blog_section">My Blogs</h2>
+	
+
+
+	<div class="row" style="height: 30%">
+		<div class="col-1 "></div>
+		<a href="/blog-1">
+		<div class="col-5 project_display" style="background-color: white;">
+			<div class="row">
+				<img src="/static/images/project1.jpg" class="col-6" style="height: 180px">
+				<h4 class="col-6">TCP Connection with python
+					creating tcp connection in python using socket module
+				 </h4>
+			</div>	
+		</div>
+		</a>
+		<a href="/blog-2">
+		<div class="col-5 project_display" style="background-color: white;">
+			<div class="row">
+				<img src="/static/images/blog2.png" class="col-6" style="height: 180px">
+				<h4 class="col-6">
+							React Native State and Props
+							Working with states and props in React Native
+				 </h4>
+			</div>	
+		</div>
+		</a>
+		<div class="col-1 "></div>
+	</div>
+
+</body>
+</html>

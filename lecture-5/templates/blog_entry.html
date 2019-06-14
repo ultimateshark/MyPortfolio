@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog Entry</title>
+	<style type="text/css">
+		.marg{
+	margin-left: 40%;
+	margin-top: 200px;
+	color: cyan;
+	font-size: 25px;
+}	
+	</style>
+	
+</head>
+<body style="background-color: currentColor;">
+	<form action="/blog-entry" method="POST" class="marg">
+		<label for="heading">Heading : </label>
+		<input type="text" id="heading" name="head" placeholder="heading"><br><br>
+		<!-- <input type="file" name="image"> -->
+
+		<label for="content">Content : </label>
+		<textarea id="content" name="content" placeholder="content" style="height: 250px;width: 150px;"></textarea><br><br>
+		<button style="margin-left: 15%;width: 80px;height: 40px;background-color: teal;border-radius: 10px;">Submit</button>
+	</form>
+</body>
+</html>
